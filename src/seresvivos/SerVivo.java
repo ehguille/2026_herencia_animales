@@ -11,5 +11,9 @@ public abstract class SerVivo {
 		System.out.println("SerVivo.java: peso="+peso+";nombreCientifico="+nombreCientifico);
 	}
 	
+	public String getNombreCientifico() {
+		return nombreCientifico;
+	}
+	
 	
 }
